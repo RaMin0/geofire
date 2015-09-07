@@ -36,6 +36,10 @@
 		<data>
 		h63wRiOu5IkvACQpyxznD7IxwyY=
 		</data>
+		<key>Headers/GeoFire-Bridging-Header.h</key>
+		<data>
+		A34MqlDPpOA+DP2XhaS1pSjUkPA=
+		</data>
 		<key>Headers/GeoFire-Prefix.pch</key>
 		<data>
 		9/qP7hHA1lGAOgw8j5xvSXE2VI4=
@@ -86,6 +90,10 @@
 		<key>Headers/GeoFire+Private.h</key>
 		<data>
 		h63wRiOu5IkvACQpyxznD7IxwyY=
+		</data>
+		<key>Headers/GeoFire-Bridging-Header.h</key>
+		<data>
+		A34MqlDPpOA+DP2XhaS1pSjUkPA=
 		</data>
 		<key>Headers/GeoFire-Prefix.pch</key>
 		<data>
