@@ -13,19 +13,19 @@
 		1D828C0B1B9DADF2009816D5 /* GFQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C0A1B9DADF2009816D5 /* GFQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D828C0D1B9DAE00009816D5 /* GFCircleQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C0C1B9DAE00009816D5 /* GFCircleQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D828C0F1B9DAE07009816D5 /* GFRegionQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C0E1B9DAE07009816D5 /* GFRegionQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D828C1A1B9DAE2C009816D5 /* GeoFire+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C101B9DAE2C009816D5 /* GeoFire+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D828C1A1B9DAE2C009816D5 /* GeoFire+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C101B9DAE2C009816D5 /* GeoFire+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1D828C1B1B9DAE2C009816D5 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D828C111B9DAE2C009816D5 /* GeoFire.m */; settings = {ASSET_TAGS = (); }; };
-		1D828C1C1B9DAE2C009816D5 /* GFQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C121B9DAE2C009816D5 /* GFQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D828C1C1B9DAE2C009816D5 /* GFQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C121B9DAE2C009816D5 /* GFQuery+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1D828C1D1B9DAE2C009816D5 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D828C131B9DAE2C009816D5 /* GFQuery.m */; settings = {ASSET_TAGS = (); }; };
-		1D828C1E1B9DAE2C009816D5 /* GFBase32Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C141B9DAE2C009816D5 /* GFBase32Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D828C1E1B9DAE2C009816D5 /* GFBase32Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C141B9DAE2C009816D5 /* GFBase32Utils.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1D828C1F1B9DAE2C009816D5 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D828C151B9DAE2C009816D5 /* GFBase32Utils.m */; settings = {ASSET_TAGS = (); }; };
-		1D828C201B9DAE2C009816D5 /* GFGeoHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C161B9DAE2C009816D5 /* GFGeoHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D828C201B9DAE2C009816D5 /* GFGeoHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C161B9DAE2C009816D5 /* GFGeoHash.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1D828C211B9DAE2C009816D5 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D828C171B9DAE2C009816D5 /* GFGeoHash.m */; settings = {ASSET_TAGS = (); }; };
-		1D828C221B9DAE2C009816D5 /* GFGeoHashQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C181B9DAE2C009816D5 /* GFGeoHashQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D828C221B9DAE2C009816D5 /* GFGeoHashQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C181B9DAE2C009816D5 /* GFGeoHashQuery.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1D828C231B9DAE2C009816D5 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D828C191B9DAE2C009816D5 /* GFGeoHashQuery.m */; settings = {ASSET_TAGS = (); }; };
-		1D828C251B9DAE43009816D5 /* GeoFire-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C241B9DAE43009816D5 /* GeoFire-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D828C251B9DAE43009816D5 /* GeoFire-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C241B9DAE43009816D5 /* GeoFire-Prefix.pch */; settings = {ATTRIBUTES = (Private, ); }; };
 		1D828C271B9DAEAB009816D5 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D828C261B9DAEAB009816D5 /* Firebase.framework */; };
-		1D828C2B1B9DD253009816D5 /* GeoFire-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C2A1B9DD060009816D5 /* GeoFire-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D828C2B1B9DD253009816D5 /* GeoFire-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C2A1B9DD060009816D5 /* GeoFire-Bridging-Header.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,17 +142,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D828C2B1B9DD253009816D5 /* GeoFire-Bridging-Header.h in Headers */,
 				1D828C0F1B9DAE07009816D5 /* GFRegionQuery.h in Headers */,
-				1D828C221B9DAE2C009816D5 /* GFGeoHashQuery.h in Headers */,
 				1D828C0B1B9DADF2009816D5 /* GFQuery.h in Headers */,
-				1D828C1E1B9DAE2C009816D5 /* GFBase32Utils.h in Headers */,
-				1D828C1C1B9DAE2C009816D5 /* GFQuery+Private.h in Headers */,
-				1D828C251B9DAE43009816D5 /* GeoFire-Prefix.pch in Headers */,
-				1D828C1A1B9DAE2C009816D5 /* GeoFire+Private.h in Headers */,
-				1D828C201B9DAE2C009816D5 /* GFGeoHash.h in Headers */,
 				1D828C0D1B9DAE00009816D5 /* GFCircleQuery.h in Headers */,
 				1D828BF41B9DABF3009816D5 /* GeoFire.h in Headers */,
+				1D828C201B9DAE2C009816D5 /* GFGeoHash.h in Headers */,
+				1D828C1A1B9DAE2C009816D5 /* GeoFire+Private.h in Headers */,
+				1D828C251B9DAE43009816D5 /* GeoFire-Prefix.pch in Headers */,
+				1D828C1C1B9DAE2C009816D5 /* GFQuery+Private.h in Headers */,
+				1D828C221B9DAE2C009816D5 /* GFGeoHashQuery.h in Headers */,
+				1D828C1E1B9DAE2C009816D5 /* GFBase32Utils.h in Headers */,
+				1D828C2B1B9DD253009816D5 /* GeoFire-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
