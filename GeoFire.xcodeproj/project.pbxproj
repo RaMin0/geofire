@@ -25,6 +25,7 @@
 		1D828C231B9DAE2C009816D5 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D828C191B9DAE2C009816D5 /* GFGeoHashQuery.m */; settings = {ASSET_TAGS = (); }; };
 		1D828C251B9DAE43009816D5 /* GeoFire-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C241B9DAE43009816D5 /* GeoFire-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D828C271B9DAEAB009816D5 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D828C261B9DAEAB009816D5 /* Firebase.framework */; };
+		1D828C2B1B9DD253009816D5 /* GeoFire-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D828C2A1B9DD060009816D5 /* GeoFire-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +142,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D828C2B1B9DD253009816D5 /* GeoFire-Bridging-Header.h in Headers */,
 				1D828C0F1B9DAE07009816D5 /* GFRegionQuery.h in Headers */,
 				1D828C221B9DAE2C009816D5 /* GFGeoHashQuery.h in Headers */,
 				1D828C0B1B9DADF2009816D5 /* GFQuery.h in Headers */,
