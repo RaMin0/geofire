@@ -59,6 +59,7 @@
 		1D828C191B9DAE2C009816D5 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
 		1D828C241B9DAE43009816D5 /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
 		1D828C261B9DAEAB009816D5 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = ThirdParty/Firebase.framework; sourceTree = "<group>"; };
+		1D828C2A1B9DD060009816D5 /* GeoFire-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GeoFire-Bridging-Header.h"; path = "GeoFire/GeoFire-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 		1D828BE61B9DABF3009816D5 = {
 			isa = PBXGroup;
 			children = (
+				1D828C2A1B9DD060009816D5 /* GeoFire-Bridging-Header.h */,
 				1D828C261B9DAEAB009816D5 /* Firebase.framework */,
 				1D828BF21B9DABF3009816D5 /* GeoFire */,
 				1D828BFE1B9DABF3009816D5 /* GeoFireTests */,
