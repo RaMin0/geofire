@@ -4,6 +4,42 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/GFBase32Utils.h</key>
+		<data>
+		QmOwFQaPH+TddaUxZsbKgWiBb1c=
+		</data>
+		<key>Headers/GFCircleQuery.h</key>
+		<data>
+		cCVpRgo3zoAc0Tbp68l40MaksRw=
+		</data>
+		<key>Headers/GFGeoHash.h</key>
+		<data>
+		PL/aNRnezY9r1fzV/eOypQOtovQ=
+		</data>
+		<key>Headers/GFGeoHashQuery.h</key>
+		<data>
+		ybW4cG1aNslUlmY/UeTRdvu4iAU=
+		</data>
+		<key>Headers/GFQuery+Private.h</key>
+		<data>
+		1Clp3OKDTDRwLPLY2vzH6zcYL28=
+		</data>
+		<key>Headers/GFQuery.h</key>
+		<data>
+		DG/b80L6Z3xHc5ybOLTd31ErSNM=
+		</data>
+		<key>Headers/GFRegionQuery.h</key>
+		<data>
+		Ffhx0fRYxzMYU6UpUhlUg66kHMw=
+		</data>
+		<key>Headers/GeoFire+Private.h</key>
+		<data>
+		h63wRiOu5IkvACQpyxznD7IxwyY=
+		</data>
+		<key>Headers/GeoFire-Prefix.pch</key>
+		<data>
+		9/qP7hHA1lGAOgw8j5xvSXE2VI4=
+		</data>
 		<key>Headers/GeoFire.h</key>
 		<data>
 		KIr6HmKp1P41Wz+7hEogyJRH74Q=
@@ -19,6 +55,42 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/GFBase32Utils.h</key>
+		<data>
+		QmOwFQaPH+TddaUxZsbKgWiBb1c=
+		</data>
+		<key>Headers/GFCircleQuery.h</key>
+		<data>
+		cCVpRgo3zoAc0Tbp68l40MaksRw=
+		</data>
+		<key>Headers/GFGeoHash.h</key>
+		<data>
+		PL/aNRnezY9r1fzV/eOypQOtovQ=
+		</data>
+		<key>Headers/GFGeoHashQuery.h</key>
+		<data>
+		ybW4cG1aNslUlmY/UeTRdvu4iAU=
+		</data>
+		<key>Headers/GFQuery+Private.h</key>
+		<data>
+		1Clp3OKDTDRwLPLY2vzH6zcYL28=
+		</data>
+		<key>Headers/GFQuery.h</key>
+		<data>
+		DG/b80L6Z3xHc5ybOLTd31ErSNM=
+		</data>
+		<key>Headers/GFRegionQuery.h</key>
+		<data>
+		Ffhx0fRYxzMYU6UpUhlUg66kHMw=
+		</data>
+		<key>Headers/GeoFire+Private.h</key>
+		<data>
+		h63wRiOu5IkvACQpyxznD7IxwyY=
+		</data>
+		<key>Headers/GeoFire-Prefix.pch</key>
+		<data>
+		9/qP7hHA1lGAOgw8j5xvSXE2VI4=
+		</data>
 		<key>Headers/GeoFire.h</key>
 		<data>
 		KIr6HmKp1P41Wz+7hEogyJRH74Q=
