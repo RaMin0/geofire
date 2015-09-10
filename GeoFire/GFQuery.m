@@ -178,6 +178,9 @@
 @property (nonatomic, strong) NSMutableDictionary *keyExitedObservers;
 @property (nonatomic, strong) NSMutableDictionary *keyMovedObservers;
 @property (nonatomic, strong) NSMutableDictionary *readyObservers;
+//Edited by Antoni Espinosa
+@property (nonatomic, strong) NSMutableDictionary *keyChangedObservers;
+//End
 @property (nonatomic) NSUInteger currentHandle;
 
 @end
@@ -236,6 +239,16 @@
                 block(key, info.location);
             });
         }];
+    //Edited by Antoni Espinosa
+    } else if (!isNew && info.isInQuery){
+        [self.keyChangedObservers enumerateKeysAndObjectsUsingBlock:^(id  observerKey,
+                                                                      GFQueryResultBlock block,
+                                                                      BOOL *stop) {
+            dispatch_async(self.geoFire.callbackQueue,^{
+                block(key, info.location);
+            });
+        }];
+    //End
     } else if (wasInQuery && !info.isInQuery) {
         [self.keyExitedObservers enumerateKeysAndObjectsUsingBlock:^(id observerKey,
                                                                      GFQueryResultBlock block,
@@ -423,6 +436,9 @@
     self.keyExitedObservers = [NSMutableDictionary dictionary];
     self.keyMovedObservers = [NSMutableDictionary dictionary];
     self.readyObservers = [NSMutableDictionary dictionary];
+    //Edited by Antoni Espinosa
+    self.keyChangedObservers = [NSMutableDictionary dictionary];
+    //End
     self.locationInfos = [NSMutableDictionary dictionary];
 }
 
@@ -441,6 +457,9 @@
         [self.keyExitedObservers removeObjectForKey:handle];
         [self.keyMovedObservers removeObjectForKey:handle];
         [self.readyObservers removeObjectForKey:handle];
+        //Edited by Antoni Espinosa
+        [self.keyChangedObservers removeObjectForKey:handle];
+        //End
         if ([self totalObserverCount] == 0) {
             [self reset];
         }
@@ -452,6 +471,9 @@
     return (self.keyEnteredObservers.count +
             self.keyExitedObservers.count +
             self.keyMovedObservers.count +
+            //Edited by Antoni Espinosa
+            self.keyChangedObservers.count +
+            //End
             self.readyObservers.count);
 }
 
@@ -493,6 +515,14 @@
                 self.currentHandle++;
                 break;
             }
+            //Edited by Antoni Espinosa
+            case GFEventTypeKeyChanged:{
+                [self.keyChangedObservers setObject:[block copy]
+                                             forKey:numberHandle];
+                self.currentHandle++;
+                break;
+            }
+            //End
             default: {
                 [NSException raise:NSInvalidArgumentException format:@"Event type was not a GFEventType!"];
                 break;
