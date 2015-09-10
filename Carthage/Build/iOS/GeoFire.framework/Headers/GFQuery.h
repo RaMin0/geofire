@@ -37,6 +37,9 @@ typedef enum {
     GFEventTypeKeyEntered,
     GFEventTypeKeyExited,
     GFEventTypeKeyMoved
+    //Edited by Antoni Espinosa
+    ,GFEventTypeKeyChanged
+    //END
 } GFEventType;
 
 typedef void (^GFQueryResultBlock) (NSString *key, CLLocation *location);
