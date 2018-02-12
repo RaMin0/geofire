@@ -1,8 +1,8 @@
 /*
  * Firebase GeoFire iOS Library
  *
- * Copyright © 2014 Firebase - All Rights Reserved
- * https://www.firebase.com
+ * Copyright © 2016 Firebase - All Rights Reserved
+ * https://firebase.google.com
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -29,21 +29,20 @@
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 typedef NSUInteger FirebaseHandle;
 
 @class GeoFire;
 
-typedef enum {
+typedef NS_ENUM(NSUInteger, GFEventType) {
     GFEventTypeKeyEntered,
     GFEventTypeKeyExited,
     GFEventTypeKeyMoved
-    //Edited by Antoni Espinosa
-    ,GFEventTypeKeyChanged
-    //END
-} GFEventType;
+};
 
 typedef void (^GFQueryResultBlock) (NSString *key, CLLocation *location);
-typedef void (^GFReadyBlock) ();
+typedef void (^GFReadyBlock) (void);
 
 /**
  * A GFQuery object handles geo queries at a Firebase location.
@@ -61,11 +60,11 @@ typedef void (^GFReadyBlock) ();
  The following event types are supported:
 
 
-     typedef enum {
+     typedef NS_ENUM(NSUInteger, GFEventType) {
        GFEventTypeKeyEntered, // A key entered the search area
        GFEventTypeKeyExited,  // A key exited the search area
        GFEventTypeKeyMoved    // A key moved within the search area
-     } GFEventType;
+     };
 
 
  The block is called for each event and key.
@@ -102,3 +101,5 @@ typedef void (^GFReadyBlock) ();
 - (void)removeAllObservers;
 
 @end
+
+NS_ASSUME_NONNULL_END

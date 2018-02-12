@@ -1,6 +1,0 @@
-framework module GeoFire {
-  umbrella header "GeoFire.h"
-
-  export *
-  module * { export * }
-}
